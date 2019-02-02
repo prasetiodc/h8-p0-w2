@@ -1,0 +1,81 @@
+1. Newton Second Law
+
+Pseudocode
+	STORE "massa" with 600
+	STORE "percepatan" with 2
+	STORE "gaya" without any value
+
+	CALCULATE "massa" times "percepatan"
+	STORE "gaya" value with calculation result
+
+	DISPLAY "gaya"
+
+
+2. Tahun Kabisat
+
+Algoritma
+	1. Tentukan tahun 
+	2. Hitung tahun mod 4, tahun mod 100 dan tahun mod 400
+	3. Jika hasil dari tahun mod 4 sama dengan 0 dan tahun mod 100 tidak sama dengan 0 
+	4. Dan jika tahun mod 4 sama dengan 0 dan tahun mod 100 sama dengan 0 dan tahun mod 400 sama dengan 0 maka tahun adalah tahun kabisat
+
+
+Pseudecode
+	STORE "years" without any value
+	STORE "mod4" without any value
+	STORE "mod100" without any value
+	STORE "mod400" without any value
+  
+	CALCULATE "years" mod 4
+	STORE "mod4" with the calculation result
+	CALCULATE "years" mod 100
+	STORE "mod100" with the calculation result
+	CALCULATE "years" mod 400
+	STORE "mod400" with the calculation result
+
+	IF "mod4" equals to 0 AND "mod100" not equals to 0
+		IF "mod4" equals to 0 AND "mod100" equals to 0 AND "mod400" equals to 0
+      DISPLAY "That years is Kabisat"
+
+
+3. Laundry Day
+
+Algoritma
+	1. Siapkan 20 pakaian
+	2. Masukan air dan sabun cuci baju ke mesin cuci
+	3. Masukan 1 per 1 pakaian ke dalam mesin cuci
+	4. Nyalakan mesin cuci apabila pakaian sudah dimasukan semuanya
+
+Pseudocode
+	STORE "cloth" with 1
+	
+	WHILE "cloth" <= 20
+		DISPLAY "Enter clothes"
+		ADD "cloth" by 1
+
+	DO "Turn on the washing machine"
+
+
+4. Periksa Kuku
+
+Algoritma
+	1. Siapkan penggaris kayu
+	2. Perintahkan siswa/siswi meletakkan tangan diatas meja
+	3. Mulai periksa kuku siswa/siswi dari posisi meja yang paling depan
+	4. Bila menemukan siswa/siswi yang kukunya panjang pukul pakai penggaris bila tidak puji siswa/siswi tersebut
+	5. Ulangi step ke 3 dan 4 sampai siswa/siswi terakhir
+
+Pseudocode
+	STORE "students" with 1
+	STORE "longNails" with any value
+	
+	WHILE "students" <= 40
+		IF "longNails" is True
+			DO "Punish him/her"
+		ELSE
+			DO "Praise him/her"
+		ADD "students" by 1
+
+
+
+
