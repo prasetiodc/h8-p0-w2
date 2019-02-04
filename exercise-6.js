@@ -55,7 +55,7 @@ for (var k=1; k<=100; k+=5){
   
 //Kelipatan 10 dari Pertambahan 9
 for (var l=1; l<=100; l+=9){
-    if(l % 9 == 0){
+    if(l % 10 == 0){
         console.log(l + ' KELIPATAN 10')
     }
 }
